@@ -15,38 +15,38 @@ const Testimonials = () => {
         <article className='testimonial'>
           <div className='client__avatar'>
             <img src={AVTR1} alt='Avatar One' />
-            <h5 className='client__name'>Erfngjbt ejefnr</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
-            </small>
           </div>
+          <h5 className='client__name'>Erfngjbt ejefnr</h5>
+          <small className='client__review'>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
+          </small>
         </article>
         <article className='testimonial'>
           <div className='client__avatar'>
             <img src={AVTR2} alt='Avatar Two' />
-            <h5 className='client__name'>Erfngjbt ejefnr</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
-            </small>
           </div>
+          <h5 className='client__name'>Erfngjbt ejefnr</h5>
+          <small className='client__review'>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
+          </small>
         </article>
         <article className='testimonial'>
           <div className='client__avatar'>
             <img src={AVTR3} alt='Avatar Three' />
-            <h5 className='client__name'>Erfngjbt ejefnr</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
-            </small>
           </div>
+          <h5 className='client__name'>Erfngjbt ejefnr</h5>
+          <small className='client__review'>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
+          </small>
         </article>
         <article className='testimonial'>
           <div className='client__avatar'>
             <img src={AVTR4} alt='Avatar Four' />
-            <h5 className='client__name'>Erfngjbt ejefnr</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
-            </small>
           </div>
+          <h5 className='client__name'>Erfngjbt ejefnr</h5>
+          <small className='client__review'>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsa ea dolorem, rerum a exercitationem ut, sequi eum deleniti modi obcaecati iure nulla facere explicabo architecto dolor animi autem similique!
+          </small>
         </article>
       </div>
     </section>
