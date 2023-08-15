@@ -13,19 +13,19 @@ const Contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
-            <MdOutlineEmail />
+            <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>koshikadulanjana95@gmail.com</h5>
             <a href="mailto:koshikadulanjana95@gmail.com" target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine />
+            <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Koshika Dulanjana</h5>
             <a href="https://m.me/koshika.dulanjana" target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
-            <BsWhatsapp />
+            <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatapp</h4>
             <h5>+94783085892</h5>
             <a href="https://api.whatsapp.com/send?phone+94783085892" target='_blank'>Send a message</a>
