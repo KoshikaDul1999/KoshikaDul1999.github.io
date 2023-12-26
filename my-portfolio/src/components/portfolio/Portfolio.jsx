@@ -1,10 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assests/portfolio1.png'
-import IMG2 from '../../assests/portfolio2.png'
-import IMG3 from '../../assests/portfolio3.png'
-import IMG4 from '../../assests/portfolio4.png'
-import IMG5 from '../../assests/portfolio5.png'
+import IMG1 from '../../assests'
+import IMG2 from '../../assests'
+import IMG3 from '../../assests'
+import IMG4 from '../../assests'
+import IMG5 from '../../assests'
 import IMG6 from '../../assests/portfolio6.png'
 
 const data = [
@@ -13,42 +13,36 @@ const data = [
     image:IMG1,
     title: 'ndjd udvuefv uidvevui uibv fbvj',
     github: 'https://github.com/KoshikaDul1999',
-    demo: 'https://dribbble.com/shots'
   },
   {
     id: 2,
     image:IMG2,
     title: 'ndjd udvuefv uidvevui uibv fbvj',
     github: 'https://github.com/KoshikaDul1999',
-    demo: 'https://dribbble.com/shots'
   },
   {
     id: 3,
     image:IMG3,
     title: 'ndjd udvuefv uidvevui uibv fbvj',
     github: 'https://github.com/KoshikaDul1999',
-    demo: 'https://dribbble.com/shots'
   },
   {
     id: 4,
     image:IMG4,
     title: 'ndjd udvuefv uidvevui uibv fbvj',
     github: 'https://github.com/KoshikaDul1999',
-    demo: 'https://dribbble.com/shots'
   },
   {
     id: 5,
     image:IMG5,
     title: 'ndjd udvuefv uidvevui uibv fbvj',
     github: 'https://github.com/KoshikaDul1999',
-    demo: 'https://dribbble.com/shots'
   },
   {
     id: 6,
     image:IMG6,
-    title: 'ndjd udvuefv uidvevui uibv fbvj',
-    github: 'https://github.com/KoshikaDul1999',
-    demo: 'https://dribbble.com/shots'
+    title: 'Car Rental System - Java',
+    github: 'https://github.com/BK-KAVIYA/GetFarCar-CarRentalSystem',
   },
 ]
 
@@ -69,7 +63,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
                   <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  
                 </div>
               </article>
             )
