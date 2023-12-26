@@ -1,10 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assests'
-import IMG2 from '../../assests'
-import IMG3 from '../../assests'
-import IMG4 from '../../assests'
-import IMG5 from '../../assests'
+import IMG1 from '../../assests/portfolio1.jpg'
+import IMG2 from '../../assests/portfolio2.jpg'
+import IMG3 from '../../assests/portfolio3.png'
+import IMG4 from '../../assests/portfolio1.jpg'
+import IMG5 from '../../assests/portfolio5.jpg'
 import IMG6 from '../../assests/portfolio6.png'
 import IMG7 from '../../assests/portfolio7.png'
 
@@ -13,7 +13,7 @@ const data = [
     id: 1,
     image:IMG1,
     title: 'Rockvin Cafe Web - ReactJS & NodeJS',
-    github: 'https://github.com/KoshikaDul1999',
+    github: 'https://github.com/KoshikaDul1999/Rockvin-Cafe-Web-Application',
   },
   {
     id: 2,
