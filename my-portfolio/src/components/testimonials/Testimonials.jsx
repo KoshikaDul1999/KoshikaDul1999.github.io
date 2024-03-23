@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assests/avatar1.jpg'
-import AVTR2 from '../../assests/avatar2.jpg'
-import AVTR3 from '../../assests/avatar3.jpg'
-import AVTR4 from '../../assests/avatar4.jpg'
+import AVTR1 from '../../assests/rec1.jpg'
+import AVTR2 from '../../assests/rec2.jpg'
+import AVTR3 from '../../assests/rec3.jpg'
+import AVTR4 from '../../assests/rec4.jpg'
 
 import { Pagination } from 'swiper/modules';
 
@@ -16,18 +16,18 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar:AVTR1,
-    name:'cjrc hdcb',
-    review:'nfvlfjn jvnfjv nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dy vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dyv ydsbvy sdgv syevwf'
+    name:'Mr.Naveen Devinda Walimuni',
+    review:''
   },
   {
     avatar:AVTR2,
-    name:'cjrc hdcb',
-    review:'nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dy yydsv ydsvr dyv ydsbvy sdgv syevwf'
+    name:'Ms.Ganga Ruwani',
+    review:'It gives me great pleasure to recommend Koshika Dulanjana. Koshika proved to be an invaluable asset to our team, demonstrating his honesty, reliability, and exceptional work ethic. His knowledge and positive attitude consistently contributed to our success, making him a standout colleague. Without any problem, I would confidently recommend Koshika. Due to his dedication and talent, the company he works for will receive great service from him.'
   },
   {
     avatar:AVTR3,
-    name:'cjrc hdcb',
-    review:'nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dyv ydsbvy sdgv sy nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dy evwf'
+    name:'Mr.Chathuranga Adhikari',
+    review:'I am pleased to recommend Mr. Koshika Dulanjana, a final year student in the Department of ICT at the Faculty of Technology, Ruhuna University. I am a Lecturer in the Multidisciplinary Department of the Faculty of Technology, University of Ruhuna, and have taught him course modules in the second and third years. The Koshika student exhibits an exceptional desire to constantly learn, a quick grasp of concepts, and strong skills in teamwork. Because of his reliability, commitment to helping others, proficiency in technology, soft skills, and English, I believe he will work actively with any IT industry or academic institution.'
   },
   {
     avatar:AVTR4,
