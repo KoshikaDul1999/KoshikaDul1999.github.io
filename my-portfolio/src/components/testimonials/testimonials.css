@@ -18,14 +18,18 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    height: 250px;
+    overflow: hidden;
 }
 
 .client__review {
     color: var(--color-light);
     font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    overflow: hidden;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
