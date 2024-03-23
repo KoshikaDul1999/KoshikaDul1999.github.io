@@ -23,7 +23,7 @@ const data = [
   {
     avatar:AVTR2,
     name:'Ms.Ganga Ruwani',
-    posision:"Manager - People's Bank Ingiriya",
+    posision:"Manager - People's Bank, Ingiriya",
     review:'It gives me great pleasure to recommend Koshika Dulanjana. Koshika proved to be an invaluable asset to our team, demonstrating his honesty, reliability, and exceptional work ethic. His knowledge and positive attitude consistently contributed to our success, making him a standout colleague. Without any problem, I would confidently recommend Koshika. Due to his dedication and talent, the company he works for will receive great service from him.'
   },
   {
