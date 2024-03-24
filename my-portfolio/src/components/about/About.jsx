@@ -1,9 +1,6 @@
 import React from 'react'
 import "./about.css"
-import ME from '../../assests/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import ME from '../../assests/me-about.jpg';
 
 const About = () => {
   return (
@@ -19,36 +16,33 @@ const About = () => {
         </div>
 
         <div className='about__content'>
-          <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
+          <ul className="about__intro">
+            <li>
+              <p>
+                An undergraduate student of University of Ruhuna (BICT (Hons) - Bachelor of Information Communication and Technology).
+              </p>
+            </li>
+            <li>
+              <p>
+                G.P.A 3.51/4.00 (06 Semesters)
+              </p>
+            </li>
+          </ul>
+
+          <div className='personal-info'>
+            <h3 className="personal-heading"><b>Personal Information</b></h3>
+            <ul className="personal-info-list">
+              <li><span>Name:</span> G.Koshika Dulanjana</li>
+              <li><span>DOB:</span> 1999/08/09</li>
+              <li><span>Address:</span> Sri Dharmaloka mawathe, Urugala, Ingiriya</li>
+              <li><span>Zip code:</span> 12440</li>
+              <li><span>Email:</span> koshikadulanjana95@gmail.com</li>
+              <li><span>Phone:</span> +94 76 545 8476</li>
+              <li><span>Linkedin:</span> in/koshika-dulanjana</li>
+              <li><span>GitHub:</span> github/KoshikaDul1999</li>
+            </ul>
           </div>
-
-          <p>
-          As a software engineering undergraduate, I am passionate
-          and driven, with a strong foundation in computer science
-          and programming. My deep understanding of software
-          development principles, exceptional problem-solving skills,
-          and quick adaptability to new technologies make me
-          valuable to any software development team. Proficient in
-          independent and collaborative work, I am eager to expand
-          my knowledge and contribute to innovative solutions in the
-          field of software engineering.
-          </p>
-
+          
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
