@@ -15,12 +15,6 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar:AVTR1,
-    name:'Mr.Naveen Devinda Walimuni',
-    posision:'Lecturer(Probationary) - Faculty of Technology, University of Ruhuna',
-    review:''
-  },
-  {
     avatar:AVTR2,
     name:'Ms.Ganga Ruwani',
     posision:"Manager - People's Bank, Ingiriya",
@@ -32,19 +26,13 @@ const data = [
     posision:'Lecturer(Probationary) - Faculty of Technology, University of Ruhuna',
     review:'I am pleased to recommend Mr. Koshika Dulanjana, a final year student in the Department of ICT at the Faculty of Technology, Ruhuna University. I am a Lecturer in the Multidisciplinary Department of the Faculty of Technology, University of Ruhuna, and have taught him course modules in the second and third years. The Koshika student exhibits an exceptional desire to constantly learn, a quick grasp of concepts, and strong skills in teamwork. Because of his reliability, commitment to helping others, proficiency in technology, soft skills, and English, I believe he will work actively with any IT industry or academic institution.'
   },
-  {
-    avatar:AVTR4,
-    name:'cjrc hdcb',
-    posision:'',
-    review:'nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dyv ydsbvy sdg nfvlfjn jvnfjv vnfv oijfv cjnv dvbfv lorem ndcd hbsdch vherv dbdhv dbv yydsv ydsvr dy v syevwf'
-  },
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Reviews from Professionals</h5>
+      <h2>Recommendations</h2>
 
       <Swiper className='container testimonials__container'
       modules={[Pagination]}
