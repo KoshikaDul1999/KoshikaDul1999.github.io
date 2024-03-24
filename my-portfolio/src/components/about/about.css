@@ -50,25 +50,45 @@
     cursor: default;
 }
 
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
+.about__content {
+    color: var(--color-light);
+  }
+  
+  .about__intro {
+    margin-bottom: 2rem;
+    padding: 0;
+  }
 
-.about__card h5 {
+  .about__intro li {
     font-size: 0.9rem;
-}
-
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
-}
-
-.about__content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
-}
+    color: #ffffff; 
+    list-style-type: disc; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .personal-heading {
+    font-family: Arial, sans-serif;  
+    color: #ffffff; 
+    font-size: 1.5rem; 
+    text-align: center; 
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  .personal-info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .personal-info-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .personal-info-list li span {
+    font-weight: bold;
+    color: #e7e3e3; 
+  }
 
 /* ================== MEDIA QUARIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
@@ -82,9 +102,10 @@
         margin: 2rem auto 4rem;
     }
 
-    .about__content p {
-        margin: 1rem 0 1.5rem;
-    }
+    .about__intro,
+    .personal-info {
+        text-align: center;
+  }
 }
 
 /* ================== MEDIA QUARIES (SMALL DEVICES) ================ */
