@@ -42,8 +42,8 @@ const data = [
   {
     id: 6,
     image:IMG6,
-    title: 'Haai Shopping System - PHP',
-    github: '',
+    title: 'Student Management System - Java',
+    github: 'https://github.com/sanjeewa999/Student-Management-System--Java',
   },
   {
     id: 7,
